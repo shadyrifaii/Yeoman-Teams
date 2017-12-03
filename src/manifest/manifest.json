@@ -1,0 +1,46 @@
+{
+  "$schema": "https://statics.teams.microsoft.com/sdk/v1.0/manifest/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.0",
+  "id": "c489e182-fb53-ad91-4968-0408253b0a28",
+  "version": "0.0.1",
+  "packageName": "net.azurewebsites.spExams",
+  "developer": {
+    "name": "ITLS",
+    "websiteUrl": "https://spExams.azurewebsites.net",
+    "privacyUrl": "https://spExams.azurewebsites.net/privacy.html",
+    "termsOfUseUrl": "https://spExams.azurewebsites.net/tou.html"
+  },
+  "name": {
+    "short": "SPExams",
+    "full": "SPExams"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-20x20.png",
+    "color": "icon-96x96.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [
+    {
+      "configurationUrl": "https://spExams.azurewebsites.net/spExamsTabConfig.html",
+      "canUpdateConfiguration": true,
+      "scopes": [
+        "team"
+      ]
+    }
+  ],
+  "staticTabs": [],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "spExams.azurewebsites.net"
+  ]
+}
